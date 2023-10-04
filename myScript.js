@@ -1,5 +1,5 @@
 function showOrganelle(){
-    var selectedOrganelle = document.getElementById("organelle").value;
+    var selectedOrganelle = document.getElementById("organelleSelect").value;
 
     var organelleModels = {
         "Nucleolus": "assets/Nucleolus.glb",
