@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="myScript.js"></script>
     <title>Cell, Cell, Organelles</title>
     <style>
         model-viewer{
@@ -14,8 +15,24 @@
     </style>
 </head>
 <body>
-    
     <model-viewer src="assets/Swanky Albar.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1"> </model-viewer>
+
+    <select id="organelleSelect" onchange="showOrganelle()">
+        <option value="Nucleolus">Nucleolus</option>
+        <option value="Chromatin">Chromatin</option>
+        <option value="Nuclear Membrane">Nuclear Membrane</option>
+        <option value="RER">Roucgh Endoplasmic Reticulum</option>
+        <option value="SER">Smooth Endoplasmic Reticulum</option>
+        <option value="Ribosome">Ribosome</option>
+        <option value="Lysosome">Lysosome</option>
+        <option value="Golgi Apparatus">Golgi Apparatus</option>
+        <option value="Vacuole">Vacuole</option>
+        <option value="Centrioles">Centrioles</option>
+        <option value="Mitochondrion">Mitochondrion</option>
+        <option value="Cytoplasm">Cytoplasm</option>
+        <option value="Cell Membrane">Cell Membrane</option>
+
+    </select>
 
 </body>
 </html>
