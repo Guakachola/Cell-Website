@@ -1,0 +1,9 @@
+#organelleModel{
+    display: inline-block;
+}
+#organelleText{
+    display: block;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+}
