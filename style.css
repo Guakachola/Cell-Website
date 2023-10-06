@@ -2,6 +2,9 @@
     display: inline-block;
     width: 400px;
     vertical-align: top;
+    padding: 40px;
+    margin: 40px;
+    border: 1px solid darkgreen;
 }
 #organelleText{
     display: inline-block;
@@ -9,15 +12,25 @@
     width: 500px;
     height: auto;
     border: 1px solid darkgreen;
+    left: 300;
+    margin: 40px;
 }
 body{
     background-color: #faebd7;
 }
 #organelleSelect{
     vertical-align: top;
+    position:fixed;
+    margin: 40px;
+    
 }
 h1{
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     color: cadetblue;
+}
+#cell{
+    display: inline-block;
+    margin: 40px;
+    border: 1px solid darkgreen;
 }
