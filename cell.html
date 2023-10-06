@@ -16,10 +16,9 @@
     </style>
 </head>
 <body>
-    <
     <model-viewer src="assets/Swanky Albar.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1"> </model-viewer>
 
-    <select id="organelleSelect" onchange="showOrganelle()">
+    <select id="organelleSelect" onchange="showOrganelle(), showText()">
         <option value="Nucleolus">Nucleolus</option>
         <option value="Chromatin">Chromatin</option>
         <option value="Nuclear Membrane">Nuclear Membrane</option>
@@ -38,6 +37,10 @@
 
     <div id="organelleModel">
 
+    </div>
+
+    <div id="organelleText">
+        
     </div>
 
 </body>
