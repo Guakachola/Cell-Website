@@ -20,7 +20,7 @@ body{
 }
 #organelleSelect{
     vertical-align: top;
-    position:fixed;
+    position:absolute;
     margin: 40px;
     
 }
