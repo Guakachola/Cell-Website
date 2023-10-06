@@ -6,15 +6,15 @@ function showOrganelle(){
         "Chromatin": "assets/Chromatin.glb",
         "Nuclear Membrane": "assets/NuclearMembrane.glb",
         "RER": "assets/RER.glb",
-        "SER": "assests/SER.glb",
-        "Ribosome": "assests/Ribosome.glb",
-        "Lysosome": "assests/Lysosome.glb",
-        "Golgi Apparatus": "assests/GolgiApparatus.glb",
-        "Vacuole": "assests/Vacuole.glb",
-        "Centrioles": "assests/Centrioles.glb",
-        "Mitochondrion": "assests/Mitochondrion.glb",
-        "Cytoplasm": "assests/Cytoplasm.glb",
-        "Cell Membrane": "assests/CellMembrane.glb"
+        "SER": "assets/SER.glb",
+        "Ribosome": "assets/Ribosome.glb",
+        "Lysosome": "assets/Lysosome.glb",
+        "Golgi Apparatus": "assets/GolgiApparatus.glb",
+        "Vacuole": "assets/Vacuole.glb",
+        "Centrioles": "assets/Centrioles.glb",
+        "Mitochondrion": "assets/Mitochondrion.glb",
+        "Cytoplasm": "assets/Cytoplasm.glb",
+        "Cell Membrane": "assets/CellMembrane.glb"
     }
     var modelURL = organelleModels[selectedOrganelle];
 
