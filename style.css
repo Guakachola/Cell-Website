@@ -1,9 +1,13 @@
 #organelleModel{
     display: inline-block;
+    vertical-align: top;
 }
 #organelleText{
     display: block;
     padding: 30px;
     width: 500px;
     height: auto;
+}
+body{
+    background-color: #faebd7;
 }
